@@ -15,7 +15,7 @@ let areTriangulo= function(lado)
 }
 console.log(areTriangulo(6))
 let nome= parseInt(promt('qual e a area do quadrado'))
-document.write(name);
+document.write(nome);
 function soma(num3,num4,num5){
  return soma/3
 }
