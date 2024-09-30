@@ -18,7 +18,21 @@
 // let num2=parseInt(prompt('numero'));
 // let num3=parseInt(prompt('numero'));
 // function media (x,y,z){
-//      return (x=y=z)/3;
-let estados={'Parana','RJ','Acre','Alagoas','Amapa','Amazonas','Bahia','Ceara','Espirito Santos','Rio grande do sul','Distrito federal','Mato grosso','Sergipe','RIO grande do norte','Goias','Mato grosso do sul','Maranhao','Pernambuco','Sao Paulo','Minas Gerais','Santa Catarina','Roraima','Tocantis','Paraiba','Para','Rondonia','
-let  i=0;
-while (i<estados)
+//     return (x+y+z)/3;
+// }
+// document.write(media(num1,num2,num3));
+let estados=['Paraná','RJ','Acre','Alagoas','Amapá','Amazonas','Bahia','Ceará','Espírito Santo','Goiás','Maranhão','Mato Grosso','Mato Grosso do Sul','Minas Geias','Pará','Paraíba','Pernambuco','Piauí','Rio Grando do Norte','Rio Grande do Sul','Rondônia','Roraima','Santa Catarina','São Paulo','Sergipe','Tocantins','Distrito Federal'];
+// let i=0;
+// while (i<estados.length){
+//     console.log(i);console.log(estados[i]);
+//     i++;
+// }
+for(let i=0;i<estados.length;i++){
+    console.log(estados[i]);
+}
+let idade=parseInt(prompt('qual é a sua idade?'));
+if(idade>17){
+    console.log('já pode dirigir');
+}
+else{
+    console.log('ilegal dirigir');
