@@ -19,4 +19,6 @@
 // let num3=parseInt(prompt('numero'));
 // function media (x,y,z){
 //      return (x=y=z)/3;
-let estados={'Parana','RJ','Acre','Alagoas','Amapa','Amaonas','Bahia','Ceara','Espirito Santos',''}
+let estados={'Parana','RJ','Acre','Alagoas','Amapa','Amazonas','Bahia','Ceara','Espirito Santos','Rio grande do sul','Distrito federal','Mato grosso','Sergipe','RIO grande do norte','Goias','Mato grosso do sul','Maranhao','Pernambuco','Sao Paulo','Minas Gerais','Santa Catarina','Roraima','Tocantis','Paraiba','Para','Rondonia','
+let  i=0;
+while (i)
